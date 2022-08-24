@@ -13,16 +13,7 @@ const data = {
 };
 
 let content = (
-	<div className="card" style={{ width: "18rem" }}>
-		<img className="card-img-top" src={data.image} alt="Card image cap" /> //We should now take care to always close self-closing tags
-		<div className="card-body">
-			<h5 className="card-title">{data.cardTitle}</h5>
-			<p className="card-text">{data.cardDescription}</p>
-			<a href={data.button.url} className="btn btn-primary">
-				{data.button.label}
-			</a>
-		</div>
-	</div>
+		<img src={data.image} />
 );
 /**
  * define the variable 'content' here and fill it with the
